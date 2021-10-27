@@ -1,0 +1,300 @@
+@{
+    ViewData["Title"] = "Cardapio";
+}
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cadastro</title>
+    <link rel="stylesheet" href="~/css/Cardapio.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+          integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+</head>
+
+<body>
+    <header>
+
+    </header>
+    
+
+    <main>
+
+        <Br><br><br><br>
+
+        <nav class="links">
+            <label for="rd_pizzas">
+                <a href=#secaoPizzas>Pizzas</a>
+            </label>
+            <label for="rd_sanduiches">Sanduiches</label>
+            <label for="rd_entradas">Entradas</label>
+            <label for="rd_sobremesas">Sobremesas</label>
+            <label for="rd_bebidas">Bebidas</label>
+
+        </nav>
+
+        <div class="scroll">
+            <input type="radio" name="grupo" id="rd_pizzas" checked="true">
+            <input type="radio" name="grupo" id="rd_sanduiches">
+            <input type="radio" name="grupo" id="rd_entradas">
+            <input type="radio" name="grupo" id="rd_sobremesas">
+            <input type="radio" name="grupo" id="rd_bebidas">
+
+            <section class="sections">
+
+                <section class="bloco" id="Pizzas"></section>
+                <section class="bloco" id="Sanduiches"></section>
+                <section class="bloco" id="Entradas"></section>
+                <section class="bloco" id="Sobremesas"></section>
+                <section class="bloco" id="Bebidas"></section>
+
+            </section>
+        </div>
+
+
+        <br><br>
+        <section name="secaoPizzas">
+            <div id="linkSand">
+
+                <strong>
+                    <h1>
+                        <center>Pizzas</center>
+                    </h1>
+                </strong>
+            </div>
+
+            <div id="cardapio">
+                <div id="item">
+                    <h2>Calabresa</h2>
+                    <img src="/css/img/Pizza-De-Calabresa.jpg" />
+                    <h2>
+                        <p>Mussarela, Calabresa, cebola, molho de tomate e azeitona.</p>
+                    </h2>
+                    <BR>
+                    <h1>R$ 22.90</h1>
+                    <br>
+                    <center><button>Adicionar</button></center>
+                </div>
+
+                <div id="item">
+                    <h2>Portuguesa</h2>
+                    <img src="/css/img/port3.jpg" />
+                    <H2>
+                        <p>Molho de tomate, presunto, cebola, ovo e mussarela.</p>
+                    </H2>
+                    <BR>
+                    <h1>R$ 22.90</h1>
+                    <br>
+                    <center><button>Adicionar</button></center>
+                </div>
+
+                <div id="item">
+                    <h2>Napolitana</h2>
+                    <img src="/css/img/napoli.jpg" />
+                    <h2>
+                        <p>Molho, mussarela, catupiry, azeitona, milho, oregano, tomate.</p>
+                    </h2>
+                    <BR>
+                    <h1>R$ 22.90</h1>
+                    <br>
+                    <center><button>Adicionar</button></center>
+                </div>
+
+                <div id="item">
+                    <h2>Marguerita</h2>
+                    <img src="/css/img/margueri.jpg" />
+                    <h2>
+                        <p>Molho concassê, mussarela, tomate, manjericão e queijo parmesão.</p>
+                    </h2>
+                    <h1>R$ 22.90</h1>
+                    <center><button>Adicionar</button></center>
+
+                </div>
+            </div>
+        </section>
+        <br></br><br><br><br>
+        <div id="linkSand">
+            <strong>
+                <h1>
+                    <center>Sanduiches</center>
+                </h1>
+            </strong>
+        </div>
+
+        <div id="cardapio">
+            <div id="item">
+                <h2>Cemita</h2>
+                <img src="/css/img/burguer.jpg" />
+                <h2>
+                    <p>Carne, queijo branco, cebola, erva pápalo e chipotle adobado.</p>
+                </h2>
+                <BR>
+                <h1>R$ 15.44</h1>
+                <br>
+                <center><button>Adicionar</button></center>
+            </div>
+
+            <div id="item">
+                <h2>Choripán</h2>
+                <img src="/css/img/choripan.jpg" />
+                <h2>
+                    <p>Pão com linguiça de carneiro na brasa e molho chimichurri</p>
+                </h2>
+                <BR>
+                <h1>R$ 6.20</h1>
+                <br>
+                <center><button>Adicionar</button></center>
+            </div>
+
+            <div id="item">
+                <h2>Medianoche</h2>
+                <img src="/css/img/medianoche.jpg" />
+                <h2>
+                    <p>Pão de ovo doce e macio, porco assado, presunto, queijo e picles.</p>
+                </h2>
+                <BR>
+                <h1>R$ 7.90</h1>
+                <br>
+                <center><button>Adicionar</button></center>
+            </div>
+
+            <div id="item">
+                <h2>Chacarero</h2>
+                <img src="/css/img/chacarero.jpg" />
+                <h2>
+                    <p>Bife churrasco em fatias finas em um pão tomate e pimenta verde.</p>
+                </h2>
+                <BR>
+                <h1>R$ 15.60</h1>
+                <br>
+                <center><button>Adicionar</button></center>
+            </div>
+        </div>
+
+        <br></br><br><br><br>
+        <div id="linkSand">
+            <strong>
+                <h1>
+                    <center>Entradas</center>
+                </h1>
+            </strong>
+        </div>
+
+        <div id="cardapio">
+            <div id="item">
+                <h2>Batata tradicional</h2>
+                <img src="/css/img/batataTra.jpg" />
+                <h2>
+                    <p>Batatas Fritas.</p>
+                </h2>
+                <BR>
+                <h1>R$ 9.10</h1>
+                <br>
+                <center><button>Adicionar</button></center>
+            </div>
+
+            <div id="item">
+                <h2>Feijão Verde</h2>
+                <img src="/css/img/feijaoverde.jpg" />
+                <H2>
+                    <p>Feijão Verde.</p>
+                </H2>
+                <BR>
+                <h1>R$ 5.50</h1>
+                <br>
+                <center><button>Adicionar</button></center>
+            </div>
+
+            <div id="item">
+                <h2>Camarão ao oleo</h2>
+                <img src="/css/img/camarao.jpg" />
+                <h2>
+                    <p>Camarão, alface e vinagrete.</p>
+                </h2>
+                <BR>
+                <h1>R$ 16.80</h1>
+                <br>
+                <center><button>Adicionar</button></center>
+            </div>
+
+            <div id="item">
+                <h2>Filé trinchado</h2>
+                <img src="/css/img/filé.jpg" />
+                <h2>
+                    <p>Contra-Filé acebolado.</p>
+                </h2>
+                <BR>
+                <h1>R$ 19.75</h1>
+                <br>
+                <center><button>Adicionar</button></center>
+            </div>
+        </div>
+
+        <br></br><br><br><br>
+        <div id="linkSand">
+            <strong>
+                <h1>
+                    <center>Bebidas</center>
+                </h1>
+            </strong>
+        </div>
+
+        <div id="cardapio">
+            <div id="item">
+                <h2>Coca Cola</h2>
+                <img src="/css/img/coca.jpg" />
+                <h2>
+                    <p>Refrigerante de Coca Cola.</p>
+                </h2>
+                <BR>
+                <h1>R$ 15.44</h1>
+                <br>
+                <center><button>Adicionar</button></center>
+            </div>
+
+            <div id="item">
+                <h2>Fanta</h2>
+                <img src="/css/img/fanta.jpg" />
+                <H2>
+                    <p>Refrigerante de laranja</p>
+                </H2>
+                <BR>
+                <h1>R$ 6.20</h1>
+                <br>
+                <center><button>Adicionar</button></center>
+            </div>
+
+            <div id="item">
+                <h2>Guaraná</h2>
+                <img src="/css/img/guarana.jpg" />
+                <h2>
+                    <p>Refrigerante de Guaraná.</p>
+                </h2>
+                <BR>
+                <h1>R$ 7.90</h1>
+                <br>
+                <center><button>Adicionar</button></center>
+            </div>
+
+            <div id="item">
+                <h2>Pepsi</h2>
+                <img src="/css/img/pepsi.jpg" />
+                <h2>
+                    <p>Refrigerante Pepsi.</p>
+                </h2>
+                <BR>
+                <h1>R$ 15.60</h1>
+                <br>
+                <center><button>Adicionar</button></center>
+            </div>
+        </div>
+    </main>
+    </main>
+
+</body>
+
+</html>
