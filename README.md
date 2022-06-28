@@ -4,7 +4,8 @@ A ideia era colocar em prática os conhecimentos adquiridos na turma de progama�
 criar um ecommerce utilizando o padrão MVC e Entity Framework para cadastro de clientes na base de dados.
 O projeto também contém um home page com login e cardápio. 
 
-🚀 Começando
+<h4>🚀 Começando</h4>
+
 É necessário ter o visual studio na sua máquina.
 clone o repositório do projeto na sua máquina e instale as dependencias .NET 5.0
  
@@ -14,17 +15,23 @@ SDK .NET 5.0
 VISUAL STUDIO
 
 
-🛠️ Construído com
-Mencione as ferramentas que você usou para criar seu projeto
+<h4>🛠️ Construído com:</h4>
 
-.NET Framework - O framework web usado
- Nuget 
- C# + HTML (Arquivo .cshtml) - Padrão MVC
-JavaScript
-CSS
-HTML
 
-✒️ Autores
-Mencione todos aqueles que ajudaram a levantar o projeto desde o seu início
+ -.NET Framework - O framework web usado
+ 
+ -Nuget
+ 
+ -C# + HTML (Arquivo .cshtml) - Padrão MVC
+ 
+ -JavaScript
+ 
+ -CSS
+ 
+ -HTML
 
-⌨️ com ❤️ por Germano Ferreira 😊
+✒️ Autores:
+
+Carlos Germano & Equipe J UpCode
+
+⌨️❤️ 
